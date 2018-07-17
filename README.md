@@ -59,16 +59,28 @@ ThrowErrorTree tree = new ThrowErrorTree(Log.ERROR, new LogExclusionStrategy() {
 ```
 
 
-Installation
-----
+## Installation
 
-Available from jCenter.
+Available from JitPack.
 
-Gradle:
+### Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+```groovy
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+### Step 2. Add the dependency
 
 ```groovy
 dependencies {
-    compile 'net.ypresto.timbertreeutils:timbertreeutils:1.0.0'
+    implementation 'com.github.operando:TimberTreeUtils:v1.0.1'
 }
 ```
 
