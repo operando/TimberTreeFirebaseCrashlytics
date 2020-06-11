@@ -2,7 +2,7 @@ TimberTreeUtils
 ===============
 
 Set of [timber](https://github.com/JakeWharton/timber) trees for
-[Crashlytics](https://fabric.io/kits/android/crashlytics) and debugging.
+[Firebase Crashlytics](https://firebase.google.com/docs/crashlytics) and debugging.
 
 
 Usage
