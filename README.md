@@ -80,7 +80,7 @@ allprojects {
 
 ```groovy
 dependencies {
-    implementation 'com.github.operando:TimberTreeUtils:v1.0.1'
+    implementation 'com.github.operando:TimberTreeUtils:v1.1.0'
 }
 ```
 
