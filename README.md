@@ -1,4 +1,4 @@
-TimberTreeUtils
+TimberTreeFirebaseCrashlytics
 ===============
 
 Set of [timber](https://github.com/JakeWharton/timber) trees for
