@@ -17,6 +17,8 @@ package net.ypresto.timbertreeutils;
 
 import android.util.Log;
 
+import androidx.annotation.NonNull;
+
 import com.google.firebase.crashlytics.FirebaseCrashlytics;
 
 import timber.log.Timber;
@@ -62,7 +64,7 @@ public class CrashlyticsLogTree extends Timber.Tree {
     }
 
     @Override
-    protected void log(int priority, String tag, String message, Throwable t) {
+    protected void log(int priority, String tag, @NonNull String message, Throwable t) {
         if (mLogExclusionStrategy.shouldSkipLog(priority, tag, message, t)) {
             return;
         }
