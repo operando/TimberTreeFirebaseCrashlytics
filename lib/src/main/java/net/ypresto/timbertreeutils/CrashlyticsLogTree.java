@@ -60,6 +60,11 @@ public class CrashlyticsLogTree extends Timber.Tree {
 
     @Override
     protected boolean isLoggable(int priority) {
+        return isLoggable(null, priority);
+    }
+
+    @Override
+    protected boolean isLoggable(String tag, int priority) {
         return priority >= mLogPriority;
     }
 
